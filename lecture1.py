@@ -9,16 +9,19 @@
 # * It forces you to *teach* the problem and solution
 # UPER is the key to it all
 # -------------------------
+
 # Understand
 # * Ask questions about the problem
 # * Dialog
 # * Rephrase the problem back to the interviewer in your own words
 # * Teaching the "what" of the problem to the interviewer
+
 # Plan
 # * Come up with multiple plans, if possible
 # * Don't ignore the naive plan
 # * Teach the plan to the interviewer
 # * Think in big concepts, not code
+
 # Execute
 # * If you're describing existing code:
 #   * Interviewer will look for where the concepts match the blocks of code
@@ -27,6 +30,7 @@
 # * If you're writing new code:
 #   * Interviewer will look for where the concepts match the blocks of code
 #   * Actually code it up at this point
+
 # Reflect
 # * What could we have done better?
 # * Future directions and features
