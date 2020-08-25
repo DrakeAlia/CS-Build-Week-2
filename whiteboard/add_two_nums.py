@@ -1,6 +1,5 @@
 # Add Two Numbers Problem:
 # You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
-
 # You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
 # Example:
@@ -36,7 +35,6 @@ class Solution(object):
         return result.next
         print(currentVal)
 
-# Success
-# Details 
-# Runtime: 108 ms, faster than 24.71% of Python3 online submissions for Add Two Numbers.
-# Memory Usage: 13.8 MB, less than 83.50% of Python3 online submissions for Add Two Numbers.ls
+
+# Runtime: 108 
+# Memory Usage: 13.8
