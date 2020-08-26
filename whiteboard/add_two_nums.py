@@ -13,8 +13,9 @@
 #         self.val = val
 #         self.next = next
 
-class Solution(object):
-    def addTwoNumbers(self, l1, l2):
+# class Solution(object):
+#     def addTwoNumbers(self, l1, l2):
+def addTwoNumbers(l1, l2)
         result = ListNode(0)
         result_tail = result
         currentVal = 0
