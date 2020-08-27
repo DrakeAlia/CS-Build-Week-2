@@ -24,3 +24,6 @@ def findDuplicate(nums):
             bitarr ^= (1 << n)
             if not bitarr & (1 << n):
                 return n
+
+# Runtime: 84 ms
+# Memory Usage: 16.2 MB

@@ -37,5 +37,5 @@ def addTwoNumbers(l1, l2)
         print(currentVal)
 
 
-# Runtime: 108 
-# Memory Usage: 13.8
+# Runtime: 108 ms
+# Memory Usage: 13.8 MB

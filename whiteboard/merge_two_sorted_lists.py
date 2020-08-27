@@ -14,21 +14,24 @@
 # class Solution:
     # def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
 def mergeTwoLists(l1, l2):
-        dummy=ListNode(-1)
-        head=dummy
+        dummy = ListNode(-1)
+        head = dummy
         
         while l1 and l2:
             if l1.val<l2.val:
-                dummy.next=l1
-                l1=l1.next
+                dummy.next = l1
+                l1 = l1.next
             else:
                 dummy.next=l2
                 l2=l2.next
             dummy=dummy.next
         
-        if l1!=None:
-            dummy.next=l1
-        if l2!=None:
-            dummy.next=l2
+        if l1 != None:
+            dummy.next = l1
+        if l2 != None:
+            dummy.next = l2
             
         return head.next
+
+# Runtime: 36 ms
+# Memory Usage: 14.1 MB

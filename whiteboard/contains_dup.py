@@ -26,5 +26,5 @@ def containsDuplicate(nums):
 print(containsDuplicate([1,2,3,1]))
 
 
-# Runtime: 176
-# Memory Usage: 19.2
+# Runtime: 176 ms
+# Memory Usage: 19.2 MB

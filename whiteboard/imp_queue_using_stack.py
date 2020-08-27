@@ -20,6 +20,13 @@
 # as long as you use only standard operations of a stack.
 # You may assume that all operations are valid (for example, no pop or peek operations will be called on an empty queue).
 
+# Your MyQueue object will be instantiated and called as such:
+# obj = MyQueue()
+# obj.push(x)
+# param_2 = obj.pop()
+# param_3 = obj.peek()
+# param_4 = obj.empty()
+
 # class MyQueue:
     def __init__(self):
         self.s1 = []
@@ -40,14 +47,7 @@
 
     def empty(self):
         return not self.s1
-        
 
-# Your MyQueue object will be instantiated and called as such:
-# obj = MyQueue()
-# obj.push(x)
-# param_2 = obj.pop()
-# param_3 = obj.peek()
-# param_4 = obj.empty()
 
-# Runtime: 52
-# Memory Usage: 13.9
+# Runtime: 52 ms
+# Memory Usage: 13.9 MB

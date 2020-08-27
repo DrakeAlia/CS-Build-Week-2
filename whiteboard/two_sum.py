@@ -21,5 +21,6 @@ def twoSums(nums):
                     return [dictionary[target - nums[pos]], pos]
 
 print(twoSums([2, 7, 11, 15]))
-                    # Runtime: 44
-                    # Memory Usage: 15.3 
+
+# Runtime: 44 ms
+# Memory Usage: 15.3 MB

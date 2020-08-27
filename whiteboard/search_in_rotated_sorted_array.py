@@ -25,3 +25,25 @@
 # All values of nums are unique.
 # nums is guranteed to be rotated at some pivot.
 # -10^4 <= target <= 10^4
+# class Solution:
+    # def search(self, nums: List[int], target: int) -> int:
+def search(nums, target):
+        l, r = 0, len(nums)-1
+        while l <= r:
+            middle = (l+r)//2
+            if nums[middle] == target:
+                return middle
+            elif nums[middle] < target:
+                if nums[r] < target and nums[middle] <= nums[r]:
+                    r = middle - 1
+                else:
+                    l = middle + 1
+            else:
+                if target < nums[l] and nums[l] <= nums[middle]:
+                    l = middle + 1
+                else:
+                    r = middle - 1
+        return -1
+
+# Runtime: 44 ms
+# Memory Usage: 13.9 MB

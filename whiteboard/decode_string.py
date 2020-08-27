@@ -57,4 +57,7 @@ def decodeString(s):
                 i += 1
 
         return res
+
+# Runtime: 24 ms
+# Memory Usage: 13.6 MB
         
