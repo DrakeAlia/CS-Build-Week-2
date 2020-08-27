@@ -88,3 +88,10 @@ res = "_"
 
 
 
+def merge_two_lists(a, b):
+    data = {}
+    for pair in a+b:
+        key, value = pair
+        data[key] = data.get(key, 0) + value        
+    sorted_data = sorted([[key, value] for key, value in data.items()])
+    return sorted_data

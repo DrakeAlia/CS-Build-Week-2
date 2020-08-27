@@ -9,17 +9,19 @@
 
 
 
-class Solution(object):
-    def twoSum(self, nums, target):
+# class Solution(object):
+    # def twoSum(self, nums, target):
+def twoSums(nums):
         dictionary = dict()
         pos = 0
         while pos < len(nums):
+            print(nums)
             if (target - nums[pos]) not in dictionary:
                     dictionary[nums[pos]] = pos
                     pos += 1
             else:
                     return [dictionary[target - nums[pos]], pos]
 
-
+print(twoSums([2, 7, 11, 15]))
                     # Runtime: 44
                     # Memory Usage: 15.3 

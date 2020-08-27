@@ -20,7 +20,7 @@
 # You may assume that all operations are valid (for example, no pop or peek operations will be called on an empty queue).
 
 
-class MyQueue:
+# class MyQueue:
     def __init__(self):
         self.s1 = []
         self.s2 = []
